@@ -7,11 +7,11 @@ local LocalPlayer = Players.LocalPlayer
 -- ===================== RIVALS =====================
 if game.PlaceId == 17625359962 then
     local Window = Rayfield:CreateWindow({
-        Name = "Rayfield Example Window",
+        Name = "Nova Loader ~ Rivals",
         Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-        LoadingTitle = "Rayfield Interface Suite",
-        LoadingSubtitle = "by Sirius",
-        ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
+        LoadingTitle = "Nova Loader ~ Rivals",
+        LoadingSubtitle = "by Aus",
+        ShowText = "Nova", -- for mobile users to unhide rayfield, change if you'd like
         Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
         ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
