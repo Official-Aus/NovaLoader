@@ -159,8 +159,8 @@ if game.PlaceId == 17625359962 then
     -- Main
 
     --Visuals
-    Visuals:CreateToggle({Name="Skeleton",CurrentValue=false,Callback=function(v) ESP.Skeleton=v end})
-    Visuals:CreateToggle({Name="Tracers",CurrentValue=false,Callback=function(v) ESP.Tracers=v end})
+    VisualTab:CreateToggle({Name="Skeleton",CurrentValue=false,Callback=function(v) ESP.Skeleton=v end})
+    VisualTab:CreateToggle({Name="Tracers",CurrentValue=false,Callback=function(v) ESP.Tracers=v end})
 
     --Others
     Other:CreateButton({
